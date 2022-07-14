@@ -1,11 +1,11 @@
 import {React ,useState} from 'react'
 
 
-const Search = (search) => {
+const Search = ({search}) => {
   return (
     <div className='search'>
         <input type="text" />
-        <button onClick={()=>search}>Search</button>
+        <button onClick={search}>Search</button>
     </div>
   )
 }

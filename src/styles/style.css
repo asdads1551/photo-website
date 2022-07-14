@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -11,4 +15,37 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+nav {
+  background-color: rgb(155, 107, 155);
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  padding: 0.5rem 1rem;
+}
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+nav ul a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.search input, .search button {
+  font-size: 2rem;
+  padding: 0.25rem;
+  border: 3px solid rgb(43, 0, 43);
+}
+.search button {
+  background-color: rgb(74, 1, 74);
+  color: white;
 }/*# sourceMappingURL=style.css.map */

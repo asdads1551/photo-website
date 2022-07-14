@@ -1,5 +1,6 @@
 import {React ,useState} from 'react'
 import Search from '../component/Search';
+import Picture from '../component/Picture';
 
 
 const Homepages = () => {
@@ -24,12 +25,15 @@ const Homepages = () => {
     <div style={{minHeight:"100vh"}}>
         <Search search={search} />
         <div className="pictures">
-            {/* data.map(d=>{
-              return 
-            }) */}
+          {
+            data && data.map((d)=>{ //
+              return <Picture data={d}/>
+            })
+          }
+            
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default Homepages

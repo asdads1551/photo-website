@@ -29,7 +29,6 @@ const Homepages = () => {
           {
             data && data.map(
               (d)=>{ 
-                console.log(d);
               return <Picture data={d}/>
             })
           }

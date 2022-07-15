@@ -4,6 +4,7 @@ import {React ,useState} from 'react'
 const Search = ({search,setInput}) => {
   const inputHandler = (e)=>{
     setInput(e.target.value);
+    
   }
   
   return (

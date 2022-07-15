@@ -17,6 +17,21 @@ ul {
   list-style-type: none;
 }
 
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.morePicture button {
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: rgb(73, 0, 73);
+  color: white;
+  cursor: pointer;
+}
+
 nav {
   background-color: rgb(155, 107, 155);
 }
@@ -48,6 +63,7 @@ nav ul a {
 .search button {
   background-color: rgb(74, 1, 74);
   color: white;
+  cursor: pointer;
 }
 
 .footer {
@@ -78,7 +94,4 @@ nav ul a {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.3s ease;
-}
-.pictures .picture .imageContainer img:hover {
-  transition: scale(1.25);
 }/*# sourceMappingURL=style.css.map */
